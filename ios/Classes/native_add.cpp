@@ -1,9 +1,3 @@
-# flutter-cplusplus-interop
-## flutter C++ interop
-
-This source code has more of a C++ class than this tutorial https://flutter.dev/docs/development/platform-integration/c-interop 
-
-```c++
 #include <iostream>
 
 using namespace std;
@@ -34,4 +28,3 @@ extern "C" {
     return value;
   }
 };
-```
